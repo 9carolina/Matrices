@@ -11,11 +11,12 @@ int main(){
 	
 	int A[n][n];
 	printf("Matriz A: \n");
-	for(i=0;i<n;i++){
+	for(i=0;i<n;i++){  //minetras i sea menor a n
 		for (j=0;j<n;j++){
 			A[i][j]=0;
-			if(i==j)
+			if(i==j){
 				A[i][j]=1;
+			}
 			printf("%d ", A[i][j]);
 		}
 	printf("\n");

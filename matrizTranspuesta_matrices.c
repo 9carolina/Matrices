@@ -17,7 +17,7 @@ int main(){
 			if(i==j)
 				suma1+=A[i][j];
 	}
-	printf("\n");
+		printf("\n");
 	}
 		printf("Matriz A transpuesta: \n");
 		for(i=0;i<n;i++){
